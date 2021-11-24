@@ -26,3 +26,7 @@ h1{
     float: right;
     margin-left: auto;
 }
+.description{
+    width: 600px;
+    height: 100px;
+}
