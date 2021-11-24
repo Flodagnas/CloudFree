@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="../CSS/titre.css">
         <link rel="stylesheet" href="../CSS/navbar.css">
         <link rel="stylesheet" href="../CSS/fond.css">
+        <link rel="text/javascript" href="../JS/test.js">
         <link rel="icon" type="image/png" href="../Cloudfree.png">
     </head>
     <body>
@@ -50,7 +51,7 @@
         <p>uytfgfvhbjkxtdqfscgbdknxcgus,</p>
         <br>
         <br>
-        <form action="/FormText/form.json" method="get">
+        <form id="my-form" action="/FormText/form.json" method="get">
             <h3>Formulaire d'inscription</h3>
             <p>Nom</p>
             <p><input type="text" name="Nom"/></p>
@@ -158,5 +159,8 @@
             <p><textarea name="description" class="description"></textarea></p>
             <input type="submit" name="envoi">
         </form>
+        <script>
+            $('#my-form').serializeObject();
+        </script>
     </body>
 </html>
