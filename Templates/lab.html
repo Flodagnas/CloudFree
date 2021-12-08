@@ -7,12 +7,36 @@
         <link rel="stylesheet" href="../CSS/titre.css">
         <link rel="stylesheet" href="../CSS/navbar.css">
         <link rel="stylesheet" href="../CSS/fond.css">
+<<<<<<< HEAD
         <link rel="stylesheet" href="../CSS/footer.css">
         <link rel="stylesheet" href="../CSS/projet.css">
         <link rel="icon" type="image/png" href="../images/Cloudfree.png">
+=======
+        <link rel="stylesheet" href="../CSS/header-footer.css">
+        <link rel="icon" type="image/png" href="../Images/Cloudfree.png">
+>>>>>>> Florian
     </head>
     <body>
+        <div class="selector">
+            <select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+                <option value="">-- Choix de page --</option>
+                <option value="/Templates/accueil.html"  class="link">ACCUEIL</option>
+                <option value="/Templates/application.html" class="link">APPLICATION</option>
+                <option value="/Templates/civisme.html" class="link">CIVISME</option>
+                <option value="/Templates/communication.html" class="link">COMMUNICATION</option>
+                <option value="/Templates/évènementiel.html" class="link">ÉVÈNEMENTIEL</option>
+                <option value="/Templates/JV1.html" class="link">JEU VIDÉO 1</option>
+                <option value="/Templates/JV2.html" class="link">JEU VIDÉO 2</option>
+                <option value="/Templates/lab.html" class="link">LAB</option>
+                <option value="/Templates/media-magazine.html" class="link">MÉDIA-MAGASINE</option>
+                <option value="/Templates/web.html" class="link">SIT WEB</option>
+                <option value="/Templates/start-up.html" class="link">START-UP</option>
+                <option value="/Templates/vêtement.html" class="link">VÊTEMENT</option>
+                <option value="/Templates/vidéos.html" class="link">VIDÉOS</option>
+           </select> 
+        </div>
         <h1>Lab</h1>
+<<<<<<< HEAD
         <nav class="tabs">
             <div class="selector"></div>
             <a href="/Templates/accueil.html"  class="link">Accueil</a>
@@ -48,25 +72,39 @@
           </div>
 
           
+=======
+>>>>>>> Florian
         <footer id="footer">
-            <div class="container">
-                <div class="item">
+            <div class="container-footer">
+                <div class="item-1">
                     <b id="contact">Nos réseaux</b>
                     <br>
                     <br>
                     <a class="item" src="" href="https://www.instagram.com/nyc.cloudfree/">
+<<<<<<< HEAD
                         <img src="../images/Instagram.png">
                     </a>
                     <a class="item" src="" href="https://twitter.com/NYC_Cloudfree">
                         <img src="../images/Twitter.png">
+=======
+                        <img src="../Images/Instagram.png">
+                    </a>
+                    <a class="item" src="" href="https://twitter.com/NYC_Cloudfree">
+                        <img src="../Images/Twitter.png">
+>>>>>>> Florian
                     </a>
                 </div>
-                <div class="item">
-                    <b>Développeurs</b>
-                    <p>Documentation</p>
-                    <p>Participant au projet</p>
+                <div class="item-2">
+                    <b>Documentation</b>
                 </div>
-                <div class="item">NYC.Cloufree@gmail.com</div>
+                <div id="membres">
+                    <b>Membre du groupe</b>
+                    <p>FACONNIER Pierre - DUBOIS Limane</p>
+                    <p>DAGNAS Florian - LATTE Flavian</p>
+                    <p>CAROLE Mawen - LHOPITALIER Matthieu</p>
+                    <p>DUVERGER Enzo - LAFORGE Samuel</p>
+                </div>
+                <div class="item-3">NYC.Cloufree@gmail.com</div>
               </div>
         </footer>
     </body>

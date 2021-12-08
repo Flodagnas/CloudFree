@@ -1,3 +1,11 @@
 body{
-    background-color: rgba(92, 179, 255, 0.6);
+    background-color: rgba(0, 145, 202, 0.507);
+}
+
+p{
+    scroll-padding-top: 70px;
+}
+
+form{
+    scroll-padding-top: 70px;
 }
