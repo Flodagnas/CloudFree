@@ -1,0 +1,23 @@
+header{
+    position:sticky;
+    background-color: rgb(255, 255, 255);
+    top: 0;
+}
+
+.container {
+    width: auto;
+    padding: auto;
+    display: flex;
+}
+
+.item {
+    height: auto;
+    text-align: center;
+}
+
+.réseaux{
+    margin-right: 10px;
+}
+#bannière{
+    max-width: 150%;
+}

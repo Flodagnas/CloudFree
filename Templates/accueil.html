@@ -7,16 +7,32 @@
         <link rel="stylesheet" href="../CSS/titre.css">
         <link rel="stylesheet" href="../CSS/navbar.css">
         <link rel="stylesheet" href="../CSS/fond.css">
+        <link rel="stylesheet" href="../CSS/header-footer.css">
         <link rel="icon" type="image/png" href="../Cloudfree.png">
     </head>
     <body>
         <header>
             <div class="container">
-                <div class="logo">
-                   <img src="/Cloudfree petit.png"> 
+                <div class="selector">
+                    <select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+                        <option value="">-- Choix de page --</option>
+                        <option value="/Templates/accueil.html"  class="link">ACCUEIL</option>
+                        <option value="/Templates/application.html" class="link">APPLICATION</option>
+                        <option value="/Templates/civisme.html" class="link">CIVISME</option>
+                        <option value="/Templates/communication.html" class="link">COMMUNICATION</option>
+                        <option value="/Templates/évènementiel.html" class="link">ÉVÈNEMENTIEL</option>
+                        <option value="/Templates/JV1.html" class="link">JEU VIDÉO 1</option>
+                        <option value="/Templates/JV2.html" class="link">JEU VIDÉO 2</option>
+                        <option value="/Templates/lab.html" class="link">LAB</option>
+                        <option value="/Templates/media-magazine.html" class="link">MÉDIA-MAGASINE</option>
+                        <option value="/Templates/web.html" class="link">SIT WEB</option>
+                        <option value="/Templates/start-up.html" class="link">START-UP</option>
+                        <option value="/Templates/vêtement.html" class="link">VÊTEMENT</option>
+                        <option value="/Templates/vidéos.html" class="link">VIDÉOS</option>
+                   </select> 
                 </div>
                 <div class="titre">
-                    <h1>Cloudfree</h1>
+                    <img id="bannière" src="../Cloudfree_Fond.png">
                 </div>
                 <div class="réseaux">
                     <a class="item" src="" href="https://www.instagram.com/nyc.cloudfree/">
@@ -29,26 +45,10 @@
                 </div>
             </div> 
         </header>
-        <nav class="tabs">
-            <div class="selector"></div>
-            <a href="#"  class="link active">Accueil</a>
-            <a href="/Templates/application.html" class="link">APPLICATION</a>
-            <a href="/Templates/civisme.html" class="link">CIVISME</a>
-            <a href="/Templates/communication.html" class="link">COMMUNICATION</a>
-            <a href="/Templates/évènementiel.html" class="link">ÉVÈNEMENTIEL</a>
-            <a href="/Templates/JV1.html" class="link">JEU VIDÉO 1</a>
-            <a href="/Templates/JV2.html" class="link">JEU VIDÉO 2</a>
-            <a href="/Templates/lab.html" class="link">LAB</a>
-            <a href="/Templates/media-magazine.html" class="link">MÉDIA-MAGASINE</a>
-            <a href="/Templates/web.html" class="link">SIT WEB</a>
-            <a href="/Templates/start-up.html" class="link">START-UP</a>
-            <a href="/Templates/vêtement.html" class="link">VÊTEMENT</a>
-            <a href="/Templates/vidéos.html" class="link">VIDÉOS</a>
-        </nav>
         <br>
         <br>
         <p> Cloudfree est un projet d'hébergement crée dans l'optique de simplifier le stokage et le partage de
-                 donnés crée par Mr Pierre FACONNIER. </p>
+                 donnés crée par Mr FACONNIER Pierre. </p>
         <br>
         <br>
         <form action="/FormText/form.json" method="get">
@@ -62,7 +62,6 @@
                 <option value=""> </option>
                 <optgroup label="Application">
                     <option value="A Themia">A Themia</option>
-                    <option value="Beers">Beers</option>
                     <option value="Jungle Poadcast">Jungle Poadcast</option>
                     <option value="Newstud">Newstud</option>
                     <option value="Repertoire Mangas">Repertoire Mangas</option>
@@ -120,7 +119,6 @@
                     <option value="West Record">West Record</option>
                     <option value="Nazaree">Nazaree</option>
                     <option value="Tara Studio">Tara Studio</option>
-                    <option value="Floax">Floax</option>
                 </optgroup>
                 <optgroup label="Évènement">
                     <option value="Réseau Solidaire">Réseau Solidaire</option>

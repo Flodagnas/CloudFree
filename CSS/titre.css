@@ -3,8 +3,8 @@ h1{
     text-align: center;
     font-family: cursive;
 }
+
 .container {
-    padding: auto;
     display: flex;
     text-align: center;
 }
@@ -16,16 +16,16 @@ h1{
 }
 
 .titre{
-    width: auto;
-    height: auto;
     text-align: center;
-    background-position: center;
+    margin-right: 33%;
+    margin-left: 20%;
 }
 
 .réseaux{
     float: right;
     margin-left: auto;
 }
+
 .description{
     width: 600px;
     height: 100px;
