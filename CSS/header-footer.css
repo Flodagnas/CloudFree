@@ -1,19 +1,38 @@
 header{
     position:sticky;
     background-color: rgb(255, 255, 255);
+    background-position:center;
     top: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
     width: auto;
+    display: flex;
+}
+.container-footer {
+    width: auto;
     padding: auto;
     display: flex;
-    padding-right: 33%;
+    text-align: center;
+}
+
+.item-1 {
+    margin-left: 0px;
 }
 
 .item-2 {
-    margin-left: 33%;
-    margin-right: 33%;
+    margin-left: 15%;
+    margin-right: auto;
+}
+
+#membres{
+    margin-right: 15%;
+}
+
+.item-3 {
+    margin-right: 0px;
 }
 
 .réseaux{
@@ -21,4 +40,8 @@ header{
 }
 #bannière{
     max-width: 150%;
+}
+
+footer{
+    margin-top: 200px;
 }
