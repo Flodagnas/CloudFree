@@ -8,11 +8,12 @@ header{
     width: auto;
     padding: auto;
     display: flex;
+    padding-right: 33%;
 }
 
-.item {
-    height: auto;
-    text-align: center;
+.item-2 {
+    margin-left: 33%;
+    margin-right: 33%;
 }
 
 .réseaux{
