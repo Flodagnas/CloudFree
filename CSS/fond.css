@@ -1,5 +1,6 @@
 body{
-    background-color: rgba(0, 145, 202, 0.507);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
 }
 
 p{
@@ -9,3 +10,4 @@ p{
 form{
     scroll-padding-top: 70px;
 }
+
