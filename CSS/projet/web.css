@@ -1,0 +1,32 @@
+#projet1 {
+    position: absolute;
+    top: 20%;
+    right: 21%;
+    width: 12.5em;
+    border: 1px solid #333;
+    padding: 8px 12px;
+    background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+    margin-left: 1%;
+}
+
+#projet2 {
+    position: absolute;
+    top: 40%;
+    right: 1%;
+    width: 12.5em;
+    border: 1px solid #333;
+    padding: 8px 12px;
+    background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+    margin-left: 1%;
+}
+
+#projet3 {
+    position: absolute;
+    top: 60%;
+    right: 21%;
+    width: 12.5em;
+    border: 1px solid #333;
+    padding: 8px 12px;
+    background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+    margin-left: 1%;
+}
