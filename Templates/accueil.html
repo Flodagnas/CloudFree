@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="../CSS/navbar.css">
         <link rel="stylesheet" href="../CSS/header-footer.css">
         <link rel="stylesheet" href="../CSS/accueil.css">
+        <link rel="stylesheet" href="../CSS/bouton.css">
         <link rel="icon" type="image/png" href="../Images/Cloudfree.png">
     </head>
     <body>
@@ -53,19 +54,21 @@
         <p> Cloudfree est un projet d'hébergement crée dans l'optique de simplifier le stokage et le partage de donnés crée par Mr FACONNIER Pierre. </p>
         <br>
         <br>
-        <form action="/FormText/form.json" method="get">
+        <form action="../PHP/test.php" method="POST" name="submit" data-toggle="validator">
             <h3>Formulaire d'inscription</h3>
             <div id="formulaire">
                 <section id="infos">
                     <p>Nom</p>
                     <p>Prénom</p>
+                    <p>Email</p>
                     <p>Projet</p>
                     <p>Description</p>
                 </section>
                 <section id="données">
-                    <p><input type="text" name="Nom"/></p>
-                    <p><input type="text" name="Prénom"/></p>
-                    <select name="Projet" id="Projet">
+                    <p><input type="text" name="nom"/></p>
+                    <p><input type="text" name="prénom"/></p>
+                    <p><input type="email" name="email"/></p>
+                    <select id="projet" name="projet">
                         <option value=""> </option>
                         <optgroup label="Application">
                             <option value="A Themia">A Themia</option>
@@ -163,13 +166,7 @@
                     <p><textarea name="description" class="description"></textarea></p>
                 </section>
             </div>
-            <a href="#" type="submit" name="envoi" class="neon">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                Envoyer
-            </a>
+            <button type="submit" class="neon" name="envoi">Envoyer</button>
         </form>
     </body>
-    </html>
+</html>
