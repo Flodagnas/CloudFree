@@ -20,7 +20,7 @@
                     <!-- Label de la checkbox -->
                     <label id="hamburger-logo" for="hamburger">☰</label>
                     <nav class="nav">
-                        <a href="accueil.html" class="link">ACCUEIL</a>
+                        <a href="index.php" class="link">ACCUEIL</a>
                         <a href="application.html" class="link">APPLICATION</a>
                         <a href="civisme.html" class="link">CIVISME</a>
                         <a href="communication.html" class="link">COMMUNICATION</a>
@@ -54,7 +54,7 @@
         <p> Cloudfree est un projet d'hébergement crée dans l'optique de simplifier le stokage et le partage de donnés crée par Mr FACONNIER Pierre. </p>
         <br>
         <br>
-        <form action="../PHP/test2.php" method="POST" name="submit" data-toggle="validator">
+        <form method="POST" action="mail.php" name="submit" data-toggle="validator">
             <h3>Formulaire d'inscription</h3>
             <div id="formulaire">
                 <section id="infos">
@@ -65,10 +65,10 @@
                     <p>Description</p>
                 </section>
                 <section id="données">
-                    <p><input type="text" name="nom"/></p>
-                    <p><input type="text" name="prénom"/></p>
-                    <p><input type="email" name="email"/></p>
-                    <select id="projet" name="projet">
+                    <p><input type="text" id="nom"/></p>
+                    <p><input type="text" id="prénom"/></p>
+                    <p><input type="email" name="email" class="email"/></p>
+                    <select name="projet" class="projet">
                         <option value=""> </option>
                         <optgroup label="Application">
                             <option value="A Themia">A Themia</option>
