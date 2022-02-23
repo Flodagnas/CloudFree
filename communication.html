@@ -4,31 +4,37 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Communication</title>
-        <link rel="stylesheet" href="../CSS/titre.css">
-        <link rel="stylesheet" href="../CSS/navbar.css">
-        <link rel="stylesheet" href="../CSS/fond.css">
-        <link rel="stylesheet" href="../CSS/header-footer.css">
-        <link rel="stylesheet" href="../CSS/projet.css">
-        <link rel="stylesheet" href="../CSS/projet/communication.css">
-        <link rel="icon" type="image/png" href="../Images/Cloudfree.png">
+        <link rel="stylesheet" href="CSS/titre.css">
+        <link rel="stylesheet" href="CSS/navbar.css">
+        <link rel="stylesheet" href="CSS/fond.css">
+        <link rel="stylesheet" href="CSS/header-footer.css">
+        <link rel="stylesheet" href="CSS/projet.css">
+        <link rel="stylesheet" href="CSS/projet/communication.css">
+        <link rel="icon" type="image/png" href="Images/Cloudfree.png">
     </head>
     <body>
         <div class="selector">
-            <select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
-                <option value="">-- Choix de page --</option>
-                <option value="index.php"  class="link">ACCUEIL</option>
-                <option value="application.html" class="link">APPLICATION</option>
-                <option value="civisme.html" class="link">CIVISME</option>
-                <option value="évènementiel.html" class="link">ÉVÈNEMENTIEL</option>
-                <option value="JV1.html" class="link">JEU VIDÉO 1</option>
-                <option value="JV2.html" class="link">JEU VIDÉO 2</option>
-                <option value="lab.html" class="link">LAB</option>
-                <option value="media-magazine.html" class="link">MÉDIA-MAGASINE</option>
-                <option value="start-up.html" class="link">START-UP</option>
-                <option value="vêtement.html" class="link">VÊTEMENT</option>
-                <option value="vidéos.html" class="link">VIDÉOS</option>
-                <option value="web.html" class="link">WEB</option>
-           </select> 
+            <div class="menu">
+                <!-- Utilisation d'une checkbox -->
+                <input type="checkbox" id="hamburger">
+                <!-- Label de la checkbox -->
+                <label id="hamburger-logo" for="hamburger">☰</label>
+                <nav class="nav">
+                    <a href="index.php" class="link">ACCUEIL</a>
+                    <a href="application.html" class="link">APPLICATION</a>
+                    <a href="civisme.html" class="link">CIVISME</a>
+                    <a href="communication.html" class="link">COMMUNICATION</a>
+                    <a href="évènementiel.html" class="link">ÉVÈNEMENTIEL</a>
+                    <a href="JV1.html" class="link">JEU VIDÉO 1</a>
+                    <a href="JV2.html" class="link">JEU VIDÉO 2</a>
+                    <a href="lab.html" class="link">LAB</a>
+                    <a href="media-magazine.html" class="link">MÉDIA-MAGASINE</a>
+                    <a href="start-up.html" class="link">START-UP</a>
+                    <a href="vêtement.html" class="link">VÊTEMENT</a>
+                    <a href="vidéos.html" class="link">VIDÉOS</a>
+                    <a href="web.html" class="link">WEB</a>
+                </nav>
+            </div>
         </div>
         <h1>Communication</h1>
         <h3>projet</h3>
@@ -42,7 +48,7 @@
             <p>Voici un paragraphe très intéressant inscrit dans une boîte avec une ombre.</p>
         </div>
         <div class="picture">
-            <img id="photo" src="../Images/communication.png">
+            <img id="photo" src="Images/communication.png">
         </div>
         <footer id="footer">
             <div class="container-footer">
@@ -51,10 +57,10 @@
                     <br>
                     <br>
                     <a class="item" src="" href="https://www.instagram.com/nyc.cloudfree/">
-                        <img src="../Images/Instagram.png">
+                        <img src="Images/Instagram.png">
                     </a>
                     <a class="item" src="" href="https://twitter.com/NYC_Cloudfree">
-                        <img src="../Images/Twitter.png">
+                        <img src="Images/Twitter.png">
                     </a>
                 </div>
                 <div class="item-2">

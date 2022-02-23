@@ -4,12 +4,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Acceuil</title>
-        <link rel="stylesheet" href="../CSS/titre.css">
-        <link rel="stylesheet" href="../CSS/navbar.css">
-        <link rel="stylesheet" href="../CSS/header-footer.css">
-        <link rel="stylesheet" href="../CSS/accueil.css">
-        <link rel="stylesheet" href="../CSS/bouton.css">
-        <link rel="icon" type="image/png" href="../Images/Cloudfree.png">
+        <link rel="stylesheet" href="CSS/titre.css">
+        <link rel="stylesheet" href="CSS/navbar.css">
+        <link rel="stylesheet" href="CSS/header-footer.css">
+        <link rel="stylesheet" href="CSS/accueil.css">
+        <link rel="stylesheet" href="CSS/bouton.css">
+        <link rel="icon" type="image/png" href="Images/Cloudfree.png">
     </head>
     <body>
         <header>
@@ -36,15 +36,15 @@
                     </nav>
                 </div>
                 <div class="titre">
-                    <img id="bannière" src="../Images/Cloudfree_Fond.png">
+                    <img id="bannière" src="Images/Cloudfree_Fond.png">
                 </div>
                 <div class="réseaux">
                     <a class="item" src="" href="https://www.instagram.com/nyc.cloudfree/">
-                        <img src="../Images/Instagram.png">
+                        <img src="Images/Instagram.png">
                     </a>
                     <br>
                     <a class="item" src="" href="https://twitter.com/NYC_Cloudfree">
-                        <img src="../Images/Twitter.png">
+                        <img src="Images/Twitter.png">
                     </a>
                 </div>
             </div> 

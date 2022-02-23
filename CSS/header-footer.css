@@ -1,12 +1,15 @@
 header{
     position:sticky;
-    background-color: rgb(255, 255, 255);
     background-position:center;
     width: auto;
     border: none;
     margin-top: -10px;
     margin-left: -10px;
     margin-right: -10px;
+}
+
+#autres{
+    background-color: darkgray;
 }
 
 .container {
