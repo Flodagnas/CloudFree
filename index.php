@@ -12,7 +12,7 @@
         <link rel="icon" type="image/png" href="Images/Cloudfree.png">
     </head>
     <body>
-        <header>
+        <header id="header">
             <div class="container">
                 <div class="menu">
                     <!-- Utilisation d'une checkbox -->
