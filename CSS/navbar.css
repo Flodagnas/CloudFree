@@ -1,67 +1,55 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:wght@300;400;500;700');
-
-body{
-  font-family: 'Roboto', sans-serif;
-  background-color: rgb(224, 224, 224);
+.menu {
+    /* Pour que le menu ne soit pas sur le texte et que ce dernier puisse être sélectionné */
+    width: 0px;
 }
 
-.navbar{
-    text-align:center;
-    margin:50px auto;
-}
-.navbar h1 {
-    margin:0px;
-    text-transform: uppercase;
-}
-.navbar h4 {
-    margin:0px;
-    color:#777;
+#hamburger {
+    /* Pour que la checkbox ne s'affiche pas */
+    display: none;
 }
 
-.tabs{
-    margin-top:50px;
-    font-size:10px;
-    padding:0px;
-    list-style:none;
-    background:#fff;
-    box-shadow:0px 5px 20px rgba(0,0,0,0.1);
-    display:inline-block;
-    border-radius:50px;
-    user-select:none;
-    text-align: center;
-    background-position: center;
+#hamburger-logo {
+    /* Pour que le curseur soit un pointeur */
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.6);
+    width: 200px;
+    display: block;
+    /* Pour que le menu hamburger s'affiche toujours */
+    text-align: right;
+    /* Pour que le menu hamburger soit "rangé" par défaut */
+    transform: translateX(-168px);
+    padding: 5px;
 }
 
-.tabs a{
-    text-decoration:none;
-    color: #777;
-    text-transform:uppercase;
-    padding:10px 20px;
-    display:inline-block;
-    z-index:1;
-    transition-duration:0.6s;
+nav {
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+    width: 200px;
+    /* Pour que les liens soient "rangés" par défaut */
+    transform: translateX(-200px);
 }
 
-.tabs a.active{
-    color:#fff;
+#hamburger-logo,
+nav {
+    /* Pour qu'il y ait une animation */
+    transition: 0.7s;
 }
 
-.tabs .link {
-    border-radius:50px;
-    width: auto;
+/* Lorsque #hamburger est coché, le #hamburger-logo et le nav qui sont dans le même parent changent de propriété */
+#hamburger:checked ~ #hamburger-logo,
+#hamburger:checked ~ nav {
+    /* Changement de la position pour afficher les menus */
+    transform: translate(0);
 }
 
-.tabs .active{
-    display:inline-block;
-    left:0px;
-    top:0px;
-    z-index:1;
-    border-radius:50px;
-    transition-duration:0.5s;
-    transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    background: rgb(45, 45, 45);
-    background: -moz-linear-gradient(45deg, rgb(6, 205, 255) 0%, rgb(31, 131, 245) 100%);
-    background: -webkit-linear-gradient(45deg, rgb(6, 205, 255) 0%,rgb(31, 131, 245) 100%);
-    background: linear-gradient(45deg, rgb(6, 205, 255) 0%,rgb(31, 131, 245) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05abe0', endColorstr='#8200f4',GradientType=1 );
+nav a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    background: rgba(221, 221, 221, 0.699);
 }
