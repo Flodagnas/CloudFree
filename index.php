@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="CSS/header-footer.css">
         <link rel="stylesheet" href="CSS/accueil.css">
         <link rel="stylesheet" href="CSS/bouton.css">
+        <link rel="stylesheet" href="CSS/responsive.css">
         <link rel="icon" type="image/png" href="Images/Cloudfree.png">
     </head>
     <body>
